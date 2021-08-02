@@ -9,7 +9,7 @@ router.get("/", async (req, res) => {
   }
 });
 
-router.get("./stats", async (req, res) => {
+router.get("/stats", async (req, res) => {
   try {
     res.sendFile(path.join(__dirname, "../public", "/stats.html"));
   } catch (err) {
@@ -17,11 +17,13 @@ router.get("./stats", async (req, res) => {
   }
 });
 
-router.get("./stats", async (req, res) => {
+router.get("/exercise", async (req, res) => {
   try {
-    res.sendFile(path.join(__dirname, "../public", "/stats.html"));
+      res.sendFile(path.join(__dirname, "../public", "/exercise.html"));
+
   } catch (err) {
-    res.status(500).json(err);
+      console.log(err);
+      res.status(500).json(err);
   }
 });
 
