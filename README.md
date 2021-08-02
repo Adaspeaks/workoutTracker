@@ -32,7 +32,7 @@ node server.js
 
 or visit the deployed link down below. With it you area able to add workouts to your regimine or start a new workout and by using an aggregate function it will add your total weights for each excersize.
 
-You can see the deployed application 
+You can see the deployed application [Here](https://workout-tracker-adaspeaks.herokuapp.com/?id=610869dec4f44700153e1d34)
 
 ## Contact
 If you have any questions you can reach me at adaspeaks@gmail.com
